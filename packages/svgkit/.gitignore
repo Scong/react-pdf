@@ -1,7 +1,6 @@
 node_modules/
 .DS_Store
-dist
 *.pdf
 *.ttf
 lerna-debug.log
-lib
+
