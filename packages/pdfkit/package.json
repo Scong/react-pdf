@@ -11,8 +11,8 @@
     "directory": "packages/pdfkit"
   },
   "browser": {
-    "./lib/pdfkit.es.js": "./lib/pdfkit.browser.es.js",
-    "./lib/pdfkit.cjs.js": "./lib/pdfkit.browser.cjs.js"
+    "./lib/pdfkit.cjs.js": "./lib/pdfkit.browser.cjs.js",
+    "./lib/pdfkit.es.js": "./lib/pdfkit.browser.es.js"
   },
   "author": {
     "name": "Devon Govett",
@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/png-js": "^2.2.0",
+    "@react-pdf/png-js": "portal:../png-js",
     "browserify-zlib": "^0.2.0",
     "crypto-js": "^4.0.0",
     "fontkit": "^2.0.2",

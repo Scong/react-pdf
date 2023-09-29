@@ -14,8 +14,8 @@
     "directory": "packages/renderer"
   },
   "browser": {
-    "./lib/react-pdf.es.js": "./lib/react-pdf.browser.es.js",
-    "./lib/react-pdf.cjs.js": "./lib/react-pdf.browser.cjs.js"
+    "./lib/react-pdf.cjs.js": "./lib/react-pdf.browser.cjs.js",
+    "./lib/react-pdf.es.js": "./lib/react-pdf.browser.es.js"
   },
   "scripts": {
     "build": "rimraf ./lib && rollup -c",
@@ -26,12 +26,12 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/font": "^2.3.6",
-    "@react-pdf/layout": "^3.6.2",
-    "@react-pdf/pdfkit": "^3.0.2",
-    "@react-pdf/primitives": "^3.0.0",
-    "@react-pdf/render": "^3.2.6",
-    "@react-pdf/types": "^2.3.3",
+    "@react-pdf/font": "portal:../font",
+    "@react-pdf/layout": "portal:../layout",
+    "@react-pdf/pdfkit": "portal:../pdfkit",
+    "@react-pdf/primitives": "portal:../primitives",
+    "@react-pdf/render": "portal:../render",
+    "@react-pdf/types": "portal:../types",
     "events": "^3.3.0",
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.2",
