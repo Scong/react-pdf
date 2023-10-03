@@ -1,6 +1,6 @@
 {
   "name": "scong-react-fork-pdf-font",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "license": "MIT",
   "description": "Register font and emoji source for react-pdf document",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -26,7 +26,7 @@
     "cross-fetch": "^3.1.5",
     "fontkit": "^2.0.2",
     "is-url": "^1.2.4",
-    "scong-react-fork-pdf-types": "^2.3.3"
+    "scong-react-fork-pdf-types": "^2.3.4"
   },
   "files": [
     "lib"
