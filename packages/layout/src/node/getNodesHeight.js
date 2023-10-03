@@ -12,6 +12,7 @@ const getNodesHeight = nodes => {
 
   for (let i = 0; i < nodes.length; i += 1) {
     const node = nodes[i];
+    if (!node.box) continue;
     min = Math.min(min, node.box.top);
     max = Math.max(max, node.box.top + node.box.height);
   }

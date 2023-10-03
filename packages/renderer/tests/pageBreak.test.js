@@ -74,19 +74,23 @@ const PageWrap = () => (
         Page 2
       </Text>
       <Text style={styles.text}>Page 2 Content</Text>
-      <View>
-        <Text style={styles.text} break>
-          Page 3
-        </Text>
-        <Text style={styles.text}>Page 3 Content</Text>
-        <Text style={styles.text} break>
-          Page 4<Text style={styles.text}>Page 4 Content</Text>
+      <>
+        <View>
           <Text style={styles.text} break>
-            Page 5
+            Page 3
           </Text>
-          <Text style={styles.text}>Page 5 Content</Text>
-        </Text>
-      </View>
+          <Text style={styles.text}>Page 3 Content</Text>
+          <>
+            <Text style={styles.text} break>
+              Page 4<Text style={styles.text}>Page 4 Content</Text>
+              <Text style={styles.text} break>
+                Page 5
+              </Text>
+              <Text style={styles.text}>Page 5 Content</Text>
+            </Text>
+          </>
+        </View>
+      </>
       <View break>
         <Text style={styles.text}>Page 6</Text>
         <Text style={styles.text}>Page 6 Content</Text>
