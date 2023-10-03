@@ -6,7 +6,7 @@ import {
   Text,
   Image,
   StyleSheet,
-} from '@react-pdf/renderer';
+} from 'scong-react-fork-pdf-renderer';
 
 const styles = StyleSheet.create({
   body: {

@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { isNil } from '@react-pdf/fns';
+import * as P from 'scong-react-fork-pdf-primitives';
+import { isNil } from 'scong-react-fork-pdf-fns';
 
 export const NON_WRAP_TYPES = [P.Svg, P.Note, P.Image, P.Canvas];
 

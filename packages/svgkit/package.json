@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/svgkit",
+  "name": "scong-react-fork-pdf-svgkit",
   "license": "MIT",
   "version": "2.2.2",
   "description": "A SVG generation library for Node.js and browser",
@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/pdfkit": "^3.0.2"
-  }
+    "scong-react-fork-pdf-pdfkit": "^3.0.2"
+  },
+  "gitHead": "74b59ae8def8e65b4f551eef276fc034869590f2"
 }

@@ -1,4 +1,4 @@
-import { omit } from '@react-pdf/fns';
+import { omit } from 'scong-react-fork-pdf-fns';
 
 import setPadding from './setPadding';
 

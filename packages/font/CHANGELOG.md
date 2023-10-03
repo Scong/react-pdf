@@ -1,18 +1,18 @@
-# @react-pdf/font
+# scong-react-fork-pdf-font
 
 ## 2.3.6
 
 ### Patch Changes
 
 - Updated dependencies [[`1e1fbdc`](https://github.com/diegomura/react-pdf/commit/1e1fbdc3c33ced46d8c7ebba7a196733cb789d59), [`8636812`](https://github.com/diegomura/react-pdf/commit/86368122ed87621d19ae3bc248080e17703d9fcb)]:
-  - @react-pdf/types@2.3.3
+  - scong-react-fork-pdf-types@2.3.3
 
 ## 2.3.5
 
 ### Patch Changes
 
 - Updated dependencies [[`a25dbcb`](https://github.com/diegomura/react-pdf/commit/a25dbcb32b65c300f5b088e8b210bb0c1abca5c2)]:
-  - @react-pdf/types@2.3.2
+  - scong-react-fork-pdf-types@2.3.2
 
 ## 2.3.4
 
@@ -21,14 +21,14 @@
 - [#2252](https://github.com/diegomura/react-pdf/pull/2252) [`47e91cb`](https://github.com/diegomura/react-pdf/commit/47e91cbd8016046bb4e8389ba0d1c7ede9edce59) Thanks [@jeetiss](https://github.com/jeetiss)! - implement function as emoji source to build more complex urls
 
 - Updated dependencies [[`47e91cb`](https://github.com/diegomura/react-pdf/commit/47e91cbd8016046bb4e8389ba0d1c7ede9edce59)]:
-  - @react-pdf/types@2.3.1
+  - scong-react-fork-pdf-types@2.3.1
 
 ## 2.3.3
 
 ### Patch Changes
 
 - Updated dependencies [[`2db67a3`](https://github.com/diegomura/react-pdf/commit/2db67a38b9be98b7816a2b5aa4733446b95e3724)]:
-  - @react-pdf/types@2.3.0
+  - scong-react-fork-pdf-types@2.3.0
 
 ## 2.3.2
 
@@ -63,7 +63,7 @@
 - [#1909](https://github.com/diegomura/react-pdf/pull/1909) [`3acf53b`](https://github.com/diegomura/react-pdf/commit/3acf53b45200fa1415315f7dc22cc4b84a6b54c6) Thanks [@diegomura](https://github.com/diegomura)! - fix: font store load method skip loading
 
 - Updated dependencies [[`0fcc594`](https://github.com/diegomura/react-pdf/commit/0fcc594310d5af30ca1e752b3efc7a047e813dcb)]:
-  - @react-pdf/fontkit@2.1.2
+  - scong-react-fork-pdf-fontkit@2.1.2
 
 ## 2.2.0
 
@@ -74,7 +74,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`fe0f214`](https://github.com/diegomura/react-pdf/commit/fe0f214dbbf2f632b852ebfe65f886ecc4dd6953)]:
-  - @react-pdf/types@2.0.9
+  - scong-react-fork-pdf-types@2.0.9
 
 ## 2.1.1
 
@@ -95,5 +95,5 @@
 - [#1581](https://github.com/diegomura/react-pdf/pull/1581) [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca) Thanks [@jeetiss](https://github.com/jeetiss)! - added changelog with changesets
 
 - Updated dependencies [[`3217a89`](https://github.com/diegomura/react-pdf/commit/3217a892e92ff98e92b6c7ea6e3244d403f679b6), [`4c5d527`](https://github.com/diegomura/react-pdf/commit/4c5d52721d29d843f1d09c3fd74370832429f70e), [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca), [`ccf3bf2`](https://github.com/diegomura/react-pdf/commit/ccf3bf22867a9bd49668cdd3543ec32492a40e4b)]:
-  - @react-pdf/fontkit@2.1.0
-  - @react-pdf/types@2.0.8
+  - scong-react-fork-pdf-fontkit@2.1.0
+  - scong-react-fork-pdf-types@2.0.8

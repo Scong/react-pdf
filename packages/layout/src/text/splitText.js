@@ -1,4 +1,4 @@
-import { get } from '@react-pdf/fns';
+import { get } from 'scong-react-fork-pdf-fns';
 
 import lineIndexAtHeight from './lineIndexAtHeight';
 import heightAtLineIndex from './heightAtLineIndex';

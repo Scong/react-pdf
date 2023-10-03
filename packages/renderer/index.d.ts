@@ -11,7 +11,7 @@ import {
   Bookmark,
   PageLayout,
   PageMode,
-} from '@react-pdf/types';
+} from 'scong-react-fork-pdf-types';
 
 declare namespace ReactPDF {
   interface Styles {
@@ -490,7 +490,10 @@ declare namespace ReactPDF {
    */
   function usePDF(options: {
     document?: React.ReactElement<DocumentProps>;
-  }): [UsePDFInstance, (newDocument: React.ReactElement<DocumentProps>) => void];
+  }): [
+    UsePDFInstance,
+    (newDocument: React.ReactElement<DocumentProps>) => void,
+  ];
 
   const Font: FontStore;
 
