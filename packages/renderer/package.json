@@ -1,6 +1,6 @@
 {
   "name": "scong-react-fork-pdf-renderer",
-  "version": "3.1.12",
+  "version": "3.1.13",
   "license": "MIT",
   "description": "Create PDF files on the browser and server",
   "types": "index.d.ts",
@@ -30,13 +30,13 @@
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.2",
     "queue": "^6.0.1",
-    "scong-react-fork-pdf-font": "^2.3.6",
-    "scong-react-fork-pdf-layout": "^3.6.2",
-    "scong-react-fork-pdf-pdfkit": "^3.0.2",
-    "scong-react-fork-pdf-primitives": "^3.0.0",
-    "scong-react-fork-pdf-render": "^3.2.6",
-    "scong-react-fork-pdf-types": "^2.3.3",
-    "scheduler": "^0.17.0"
+    "scheduler": "^0.17.0",
+    "scong-react-fork-pdf-font": "^2.3.7",
+    "scong-react-fork-pdf-layout": "^3.6.3",
+    "scong-react-fork-pdf-pdfkit": "^3.0.3",
+    "scong-react-fork-pdf-primitives": "^3.0.2",
+    "scong-react-fork-pdf-render": "^3.2.7",
+    "scong-react-fork-pdf-types": "^2.3.4"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0.0 || ^18.0.0"
