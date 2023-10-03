@@ -1,4 +1,4 @@
-import { compose, castArray } from '@react-pdf/fns';
+import { compose, castArray } from 'scong-react-fork-pdf-fns';
 
 /**
  * Remove nil values from array

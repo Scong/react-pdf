@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet } from '@react-pdf/renderer';
+import { Text, StyleSheet } from 'scong-react-fork-pdf-renderer';
 
 const styles = StyleSheet.create({
   title: {

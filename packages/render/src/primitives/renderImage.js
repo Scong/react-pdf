@@ -1,4 +1,4 @@
-import { isNil } from '@react-pdf/fns';
+import { isNil } from 'scong-react-fork-pdf-fns';
 
 import clipNode from '../operations/clipNode';
 import resolveObjectFit from '../utils/resolveObjectFit';

@@ -1,4 +1,4 @@
-import { flatten } from '@react-pdf/stylesheet';
+import { flatten } from 'scong-react-fork-pdf-stylesheet';
 import getPageSize from '../page/getSize';
 
 /**

@@ -1,11 +1,11 @@
-import * as P from '@react-pdf/primitives';
+import * as P from 'scong-react-fork-pdf-primitives';
 import layoutEngine, {
   linebreaker,
   justification,
   scriptItemizer,
   wordHyphenation,
   textDecoration,
-} from '@react-pdf/textkit';
+} from 'scong-react-fork-pdf-textkit';
 
 import fromFragments from '../text/fromFragments';
 import transformText from '../text/transformText';

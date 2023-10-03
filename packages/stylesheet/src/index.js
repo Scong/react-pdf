@@ -1,4 +1,4 @@
-import { compose } from '@react-pdf/fns';
+import { compose } from 'scong-react-fork-pdf-fns';
 import expandStyles from './expand';
 import flattenStyles from './flatten';
 import transformStyles from './transform';
