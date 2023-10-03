@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-import { isNil, upperFirst, matchPercent } from '@react-pdf/fns';
+import { isNil, upperFirst, matchPercent } from 'scong-react-fork-pdf-fns';
 
 /**
  * Set generic yoga attribute to node's Yoga instance, handing `auto`, edges and percentage cases

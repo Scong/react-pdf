@@ -1,4 +1,4 @@
-import { last } from '@react-pdf/fns';
+import { last } from 'scong-react-fork-pdf-fns';
 
 import trim from '../attributedString/trim';
 import append from '../attributedString/append';

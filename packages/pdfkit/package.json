@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/pdfkit",
+  "name": "scong-react-fork-pdf-pdfkit",
   "version": "3.0.2",
   "license": "MIT",
   "description": "A PDF generation library for Node.js",
@@ -30,13 +30,14 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/png-js": "^2.2.0",
     "browserify-zlib": "^0.2.0",
     "crypto-js": "^4.0.0",
     "fontkit": "^2.0.2",
+    "scong-react-fork-pdf-png-js": "^2.2.0",
     "vite-compatible-readable-stream": "^3.6.1"
   },
   "devDependencies": {
     "iconv-lite": "^0.4.13"
-  }
+  },
+  "gitHead": "74b59ae8def8e65b4f551eef276fc034869590f2"
 }

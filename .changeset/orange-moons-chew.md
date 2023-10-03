@@ -1,5 +1,5 @@
 ---
-'@react-pdf/layout': minor
+'scong-react-fork-pdf-layout': minor
 ---
 
 - Nested page break support for views.

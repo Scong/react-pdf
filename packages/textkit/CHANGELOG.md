@@ -1,4 +1,4 @@
-# @react-pdf/textkit
+# scong-react-fork-pdf-textkit
 
 ## 4.2.0
 
@@ -9,7 +9,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`eff1ff0`](https://github.com/diegomura/react-pdf/commit/eff1ff0fefcd710994e4654904ef55843af76a17)]:
-  - @react-pdf/fns@2.0.1
+  - scong-react-fork-pdf-fns@2.0.1
 
 ## 4.1.1
 
@@ -28,7 +28,7 @@
 - [#1917](https://github.com/diegomura/react-pdf/pull/1917) [`4bb97c3`](https://github.com/diegomura/react-pdf/commit/4bb97c3b92e82d7d7be2698c770f42560c6fcab6) Thanks [@carlobeltrame](https://github.com/carlobeltrame)! - fix: console error when text overflows the last available rect
 
 - Updated dependencies [[`a5a933c`](https://github.com/diegomura/react-pdf/commit/a5a933c9733e4c77338ef76a2b3545b84a646a81)]:
-  - @react-pdf/fns@2.0.0
+  - scong-react-fork-pdf-fns@2.0.0
 
 ## 4.0.0
 
@@ -55,8 +55,8 @@
 - [#1838](https://github.com/diegomura/react-pdf/pull/1838) [`9bdb5c9`](https://github.com/diegomura/react-pdf/commit/9bdb5c934a822340754cd4c892d399f91f6218de) Thanks [@diegomura](https://github.com/diegomura)! - feat: create fns package
 
 - Updated dependencies [[`434df31`](https://github.com/diegomura/react-pdf/commit/434df317a92ae5b51ee7b23a9f6500de0b6aa4aa), [`9bdb5c9`](https://github.com/diegomura/react-pdf/commit/9bdb5c934a822340754cd4c892d399f91f6218de)]:
-  - @react-pdf/unicode-properties@2.6.0
-  - @react-pdf/fns@1.0.0
+  - scong-react-fork-pdf-unicode-properties@2.6.0
+  - scong-react-fork-pdf-fns@1.0.0
 
 ## 2.1.0
 
@@ -71,4 +71,4 @@
 * [#1567](https://github.com/diegomura/react-pdf/pull/1567) [`5d2d688`](https://github.com/diegomura/react-pdf/commit/5d2d688e18c830bb96c6e08446437d29f9f9c65f) Thanks [@hayoung0Lee](https://github.com/hayoung0Lee)! - fixed line breaks for the case when the word in a text is bigger than the given width
 
 * Updated dependencies [[`4c5d527`](https://github.com/diegomura/react-pdf/commit/4c5d52721d29d843f1d09c3fd74370832429f70e), [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca)]:
-  - @react-pdf/unicode-properties@2.5.0
+  - scong-react-fork-pdf-unicode-properties@2.5.0

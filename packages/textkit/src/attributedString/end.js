@@ -1,4 +1,4 @@
-import { last } from '@react-pdf/fns';
+import { last } from 'scong-react-fork-pdf-fns';
 
 /**
  * Get attributed string end value

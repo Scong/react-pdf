@@ -19,7 +19,7 @@ const configBase = {
   input: 'src/index.js',
   external: Object.keys(pkg.dependencies).concat(
     /@babel\/runtime/,
-    /@react-pdf/,
+    /scong-react-fork-pdf/,
   ),
   plugins: [
     json(),

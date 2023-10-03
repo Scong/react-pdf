@@ -1,5 +1,5 @@
-import Yoga from '@react-pdf/yoga';
-import { isNil, matchPercent } from '@react-pdf/fns';
+import Yoga from 'scong-react-fork-pdf-yoga';
+import { isNil, matchPercent } from 'scong-react-fork-pdf-fns';
 
 const checkPercents = (attr, value) => {
   const percent = matchPercent(value);
