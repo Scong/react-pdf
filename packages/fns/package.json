@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/fns",
+  "name": "scong-react-fork-pdf-fns",
   "version": "2.0.1",
   "license": "MIT",
   "description": "React-pdf helper functions",
@@ -22,5 +22,6 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "gitHead": "74b59ae8def8e65b4f551eef276fc034869590f2"
 }

@@ -1,4 +1,4 @@
-# @react-pdf/render
+# scong-react-fork-pdf-render
 
 ## 3.2.6
 
@@ -7,7 +7,7 @@
 - [#2320](https://github.com/diegomura/react-pdf/pull/2320) [`5385a43`](https://github.com/diegomura/react-pdf/commit/5385a438cb4876d1dc00d49d5fdd2e07c0d16167) Thanks [@wojtekmaj](https://github.com/wojtekmaj)! - Fixed empty strings replaced with defaults in `creator` and `producer` props
 
 - Updated dependencies [[`1e1fbdc`](https://github.com/diegomura/react-pdf/commit/1e1fbdc3c33ced46d8c7ebba7a196733cb789d59), [`8636812`](https://github.com/diegomura/react-pdf/commit/86368122ed87621d19ae3bc248080e17703d9fcb)]:
-  - @react-pdf/types@2.3.3
+  - scong-react-fork-pdf-types@2.3.3
 
 ## 3.2.5
 
@@ -18,23 +18,23 @@
 * [#2314](https://github.com/diegomura/react-pdf/pull/2314) [`d6018d5`](https://github.com/diegomura/react-pdf/commit/d6018d5a80492270ff5f5b4c00e694f7dc1cd93f) Thanks [@wojtekmaj](https://github.com/wojtekmaj)! - Make `cx` and `cy` optional in `Circle` and `Ellipse`
 
 * Updated dependencies [[`a25dbcb`](https://github.com/diegomura/react-pdf/commit/a25dbcb32b65c300f5b088e8b210bb0c1abca5c2)]:
-  - @react-pdf/types@2.3.2
+  - scong-react-fork-pdf-types@2.3.2
 
 ## 3.2.4
 
 ### Patch Changes
 
 - Updated dependencies [[`47e91cb`](https://github.com/diegomura/react-pdf/commit/47e91cbd8016046bb4e8389ba0d1c7ede9edce59)]:
-  - @react-pdf/types@2.3.1
+  - scong-react-fork-pdf-types@2.3.1
 
 ## 3.2.3
 
 ### Patch Changes
 
 - Updated dependencies [[`2db67a3`](https://github.com/diegomura/react-pdf/commit/2db67a38b9be98b7816a2b5aa4733446b95e3724), [`eff1ff0`](https://github.com/diegomura/react-pdf/commit/eff1ff0fefcd710994e4654904ef55843af76a17)]:
-  - @react-pdf/textkit@4.2.0
-  - @react-pdf/types@2.3.0
-  - @react-pdf/fns@2.0.1
+  - scong-react-fork-pdf-textkit@4.2.0
+  - scong-react-fork-pdf-types@2.3.0
+  - scong-react-fork-pdf-fns@2.0.1
 
 ## 3.2.2
 
@@ -43,15 +43,15 @@
 - [#2205](https://github.com/diegomura/react-pdf/pull/2205) [`9a5e0be`](https://github.com/diegomura/react-pdf/commit/9a5e0befb89756db07ce053192a136df9d4ba905) Thanks [@jeetiss](https://github.com/jeetiss)! - update babel
 
 - Updated dependencies [[`9a5e0be`](https://github.com/diegomura/react-pdf/commit/9a5e0befb89756db07ce053192a136df9d4ba905)]:
-  - @react-pdf/textkit@4.1.1
+  - scong-react-fork-pdf-textkit@4.1.1
 
 ## 3.2.1
 
 ### Patch Changes
 
 - Updated dependencies [[`a5a933c`](https://github.com/diegomura/react-pdf/commit/a5a933c9733e4c77338ef76a2b3545b84a646a81), [`4bb97c3`](https://github.com/diegomura/react-pdf/commit/4bb97c3b92e82d7d7be2698c770f42560c6fcab6)]:
-  - @react-pdf/fns@2.0.0
-  - @react-pdf/textkit@4.1.0
+  - scong-react-fork-pdf-fns@2.0.0
+  - scong-react-fork-pdf-textkit@4.1.0
 
 ## 3.2.0
 
@@ -64,7 +64,7 @@
 - [#1906](https://github.com/diegomura/react-pdf/pull/1906) [`884695b`](https://github.com/diegomura/react-pdf/commit/884695b44feb974f155c83e0714e8e939b4f641b) Thanks [@diegomura](https://github.com/diegomura)! - feat: build textkit with rollup & define public api
 
 - Updated dependencies [[`0fcc594`](https://github.com/diegomura/react-pdf/commit/0fcc594310d5af30ca1e752b3efc7a047e813dcb), [`37a9a74`](https://github.com/diegomura/react-pdf/commit/37a9a747f7677fa05e3ddf5669c0379aa65c1e39), [`884695b`](https://github.com/diegomura/react-pdf/commit/884695b44feb974f155c83e0714e8e939b4f641b)]:
-  - @react-pdf/textkit@4.0.0
+  - scong-react-fork-pdf-textkit@4.0.0
 
 ## 3.1.0
 
@@ -91,7 +91,7 @@
 - [#1859](https://github.com/diegomura/react-pdf/pull/1859) [`810f459`](https://github.com/diegomura/react-pdf/commit/810f45904e9abeaff5583ed4ceb6d77e123bbaea) Thanks [@diegomura](https://github.com/diegomura)! - feat: build render package as ES module
 
 - Updated dependencies [[`1411d16`](https://github.com/diegomura/react-pdf/commit/1411d162e04ca237bad93729695c363fdf4bdbeb), [`4fadb48`](https://github.com/diegomura/react-pdf/commit/4fadb48983d7269452f89f80c7e341ece859aaee), [`ce8762f`](https://github.com/diegomura/react-pdf/commit/ce8762f6de5c796e69ec5a225c7f3ff9c619a960), [`5d2c308`](https://github.com/diegomura/react-pdf/commit/5d2c3088cf438a8abf1038b14a21117fecf59d57)]:
-  - @react-pdf/types@2.1.0
+  - scong-react-fork-pdf-types@2.1.0
 
 ## 3.0.0
 
@@ -106,10 +106,10 @@
 * [#1838](https://github.com/diegomura/react-pdf/pull/1838) [`9bdb5c9`](https://github.com/diegomura/react-pdf/commit/9bdb5c934a822340754cd4c892d399f91f6218de) Thanks [@diegomura](https://github.com/diegomura)! - feat: create fns package
 
 * Updated dependencies [[`e938df0`](https://github.com/diegomura/react-pdf/commit/e938df0857642707b10b7f65f17ed22dc394ac1b), [`9bdb5c9`](https://github.com/diegomura/react-pdf/commit/9bdb5c934a822340754cd4c892d399f91f6218de), [`fe0f214`](https://github.com/diegomura/react-pdf/commit/fe0f214dbbf2f632b852ebfe65f886ecc4dd6953), [`9a2b935`](https://github.com/diegomura/react-pdf/commit/9a2b935cfe173f80425ed87d9f474da271c050d2)]:
-  - @react-pdf/primitives@3.0.0
-  - @react-pdf/fns@1.0.0
-  - @react-pdf/textkit@3.0.0
-  - @react-pdf/types@2.0.9
+  - scong-react-fork-pdf-primitives@3.0.0
+  - scong-react-fork-pdf-fns@1.0.0
+  - scong-react-fork-pdf-textkit@3.0.0
+  - scong-react-fork-pdf-types@2.0.9
 
 ## 2.1.0
 
@@ -124,6 +124,6 @@
 * [#1581](https://github.com/diegomura/react-pdf/pull/1581) [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca) Thanks [@jeetiss](https://github.com/jeetiss)! - added changelog with changesets
 
 * Updated dependencies [[`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca), [`5d2d688`](https://github.com/diegomura/react-pdf/commit/5d2d688e18c830bb96c6e08446437d29f9f9c65f), [`ccf3bf2`](https://github.com/diegomura/react-pdf/commit/ccf3bf22867a9bd49668cdd3543ec32492a40e4b)]:
-  - @react-pdf/primitives@2.0.2
-  - @react-pdf/textkit@2.1.0
-  - @react-pdf/types@2.0.8
+  - scong-react-fork-pdf-primitives@2.0.2
+  - scong-react-fork-pdf-textkit@2.1.0
+  - scong-react-fork-pdf-types@2.0.8

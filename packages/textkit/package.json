@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/textkit",
+  "name": "scong-react-fork-pdf-textkit",
   "license": "MIT",
   "version": "4.2.0",
   "description": "An advanced text layout framework",
@@ -24,8 +24,9 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/fns": "2.0.1",
     "hyphen": "^1.6.4",
+    "scong-react-fork-pdf-fns": "2.0.1",
     "unicode-properties": "^1.4.1"
-  }
+  },
+  "gitHead": "74b59ae8def8e65b4f551eef276fc034869590f2"
 }

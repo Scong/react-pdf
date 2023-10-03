@@ -1,6 +1,6 @@
-import Yoga from '@react-pdf/yoga';
-import * as P from '@react-pdf/primitives';
-import { isNil, compose } from '@react-pdf/fns';
+import Yoga from 'scong-react-fork-pdf-yoga';
+import * as P from 'scong-react-fork-pdf-primitives';
+import { isNil, compose } from 'scong-react-fork-pdf-fns';
 
 import getMargin from '../node/getMargin';
 import getPadding from '../node/getPadding';

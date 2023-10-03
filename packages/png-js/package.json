@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/png-js",
+  "name": "scong-react-fork-pdf-png-js",
   "description": "A PNG decoder in JS",
   "version": "2.2.0",
   "license": "MIT",
@@ -28,5 +28,6 @@
   ],
   "dependencies": {
     "browserify-zlib": "^0.2.0"
-  }
+  },
+  "gitHead": "74b59ae8def8e65b4f551eef276fc034869590f2"
 }

@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { compose } from '@react-pdf/fns';
+import * as P from 'scong-react-fork-pdf-primitives';
+import { compose } from 'scong-react-fork-pdf-fns';
 
 const isType = type => node => node.type === type;
 

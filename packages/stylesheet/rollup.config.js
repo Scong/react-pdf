@@ -20,7 +20,7 @@ const input = 'src/index.js';
 const getExternal = () => [
   ...Object.keys(pkg.dependencies),
   /@babel\/runtime/,
-  /@react-pdf/,
+  /scong-react-fork-pdf/,
 ];
 
 const getPlugins = () => [
