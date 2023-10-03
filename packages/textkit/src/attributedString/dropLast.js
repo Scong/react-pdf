@@ -1,4 +1,4 @@
-import { adjust, dropLast as arrayDropLast } from '@react-pdf/fns';
+import { adjust, dropLast as arrayDropLast } from 'scong-react-fork-pdf-fns';
 
 import runDropLast from '../run/dropLast';
 

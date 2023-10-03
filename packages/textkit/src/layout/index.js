@@ -1,4 +1,4 @@
-import { compose } from '@react-pdf/fns';
+import { compose } from 'scong-react-fork-pdf-fns';
 
 import wrapWords from './wrapWords';
 import typesetter from './typesetter';

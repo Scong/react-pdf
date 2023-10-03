@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/yoga",
+  "name": "scong-react-fork-pdf-yoga",
   "version": "4.1.2",
   "description": "Prebuilt yoga-layout package",
   "license": "MIT",
@@ -26,5 +26,6 @@
   },
   "devDependencies": {
     "yoga-wasm-web": "~0.3.2"
-  }
+  },
+  "gitHead": "74b59ae8def8e65b4f551eef276fc034869590f2"
 }

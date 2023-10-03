@@ -1,4 +1,4 @@
-import { evolve, matchPercent } from '@react-pdf/fns';
+import { evolve, matchPercent } from 'scong-react-fork-pdf-fns';
 
 /**
  *

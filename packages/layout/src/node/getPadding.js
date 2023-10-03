@@ -1,4 +1,4 @@
-import Yoga from '@react-pdf/yoga';
+import Yoga from 'scong-react-fork-pdf-yoga';
 
 const getComputedPadding = (node, edge) => {
   const { yogaNode } = node;

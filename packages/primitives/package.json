@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/primitives",
+  "name": "scong-react-fork-pdf-primitives",
   "version": "3.0.1",
   "license": "MIT",
   "description": "Define uninitialized elements",
@@ -19,5 +19,6 @@
   "files": [
     "lib",
     "src"
-  ]
+  ],
+  "gitHead": "74b59ae8def8e65b4f551eef276fc034869590f2"
 }

@@ -2,7 +2,7 @@
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable class-methods-use-this */
 
-// import { PDFFont } from '@react-pdf/pdfkit';
+// import { PDFFont } from 'scong-react-fork-pdf-pdfkit';
 
 import SVGPage from '../page';
 import serialize from './serialize';
