@@ -1,6 +1,5 @@
 /* eslint-disable no-continue */
 
-import getWrap from './getWrap';
 import getNodesHeight from './getNodesHeight';
 
 const getBreak = node => node.props?.break || false;
@@ -34,12 +33,9 @@ const shouldBreak = (child, futureElements, height) => {
   const minPresenceAhead = getMinPresenceAhead(child);
   const presenceAhead = getPresenceAhead(futureElements, height);
   const futureHeight = getNodesHeight(futureElements);
-  const shouldSplit = height < child.box.top + child.box.height;
-  const shouldWrap = getWrap(child);
 
   return (
     getBreak(child) ||
-    (!shouldWrap && shouldSplit) ||
     (minPresenceAhead < futureHeight && presenceAhead < minPresenceAhead)
   );
 };

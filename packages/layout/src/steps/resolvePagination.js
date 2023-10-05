@@ -68,6 +68,7 @@ const breakableChild = (children, height, path = '') => {
       if (breakable) return breakable;
     }
   }
+  return null;
 };
 
 const splitByFirstChildBreak = (
@@ -83,15 +84,19 @@ const splitByFirstChildBreak = (
 
   const [preBreakNode, postBreakNode] = splitNode(currentNode, height);
 
-  for (let i = 0; i < currentNode.children.length; i += 1) {
-    // force recompute of lines on relayout.
-    // as the structure has changed.
-    const subjectNode = Object.assign({}, currentNode.children[i], {
-      lines: null,
-    });
+  let preBreakLines = [];
+  let preBreakHeight = 0;
+  let postBreakLines = [];
+  let postBreakHeight = 0;
 
+  for (let i = 0; i < currentNode.children.length; i += 1) {
+    const subjectNode = currentNode.children[i];
     if (i < nextIndex) {
       preBreakChildren.push(subjectNode);
+      if (subjectNode.lines) {
+        preBreakLines = preBreakLines.concat(subjectNode.lines);
+      }
+      if (subjectNode.box) preBreakHeight += subjectNode.box.height;
     } else if (i === nextIndex) {
       if (currentPath === firstBreakableChild.path) {
         const theBrokenChild = subjectNode;
@@ -104,6 +109,9 @@ const splitByFirstChildBreak = (
         const next = Object.assign({}, theBrokenChild, {
           props,
         });
+
+        if (next.lines) postBreakLines = preBreakLines.concat(next.lines);
+        if (next.box) postBreakHeight += next.box.height;
 
         postBreakChildren.push(next);
       } else {
@@ -122,19 +130,60 @@ const splitByFirstChildBreak = (
           height,
         );
 
-        if (nestedPreBreakChild) preBreakChildren.push(nestedPreBreakChild);
-        if (nestedPostBreakChild) postBreakChildren.push(nestedPostBreakChild);
+        if (nestedPreBreakChild) {
+          preBreakChildren.push(nestedPreBreakChild);
+          if (nestedPreBreakChild.lines) {
+            postBreakLines = preBreakLines.concat(nestedPreBreakChild.lines);
+          }
+          if (nestedPreBreakChild.box.height)
+            postBreakHeight += nestedPreBreakChild.box.height;
+        }
+        if (nestedPostBreakChild) {
+          postBreakChildren.push(nestedPostBreakChild);
+          if (nestedPostBreakChild.lines) {
+            postBreakLines = postBreakLines.concat(nestedPostBreakChild.lines);
+          }
+          if (nestedPostBreakChild.box)
+            postBreakHeight += nestedPostBreakChild.box.height;
+        }
       }
     } else {
+      if (subjectNode.lines) {
+        postBreakLines = preBreakLines.concat(subjectNode.lines);
+      }
+      if (subjectNode.box) postBreakHeight += subjectNode.box.height;
       postBreakChildren.push(subjectNode);
     }
   }
 
+  const preBreakBox = Object.assign({}, preBreakNode.box, {
+    height: preBreakHeight,
+  });
+
+  const postBreakBox = Object.assign({}, postBreakNode.box, {
+    height: postBreakHeight,
+  });
+
+  const finalPreBreakNode = Object.assign({}, preBreakNode, {
+    box: preBreakBox,
+    lines: preBreakLines,
+  });
+
+  const finalPostBreakNode = Object.assign({}, postBreakNode, {
+    box: postBreakBox,
+    lines: postBreakLines,
+  });
+
+  delete finalPostBreakNode.lines;
+  delete finalPreBreakNode.lines;
+  // use relayout to recompute lines to work with text I believe
+  // this will need to be done differently.
+
   return [
     preBreakChildren.length === 0
       ? null
-      : assingChildren(preBreakChildren, preBreakNode),
-    assingChildren(postBreakChildren, postBreakNode),
+      : assingChildren(preBreakChildren, finalPreBreakNode),
+    assingChildren(postBreakChildren, finalPostBreakNode),
   ];
 };
 
@@ -193,7 +242,7 @@ const splitNodes = (height, contentArea, nodes) => {
       break;
     }
 
-    if (shouldBreak) {
+    if (shouldBreak || (!canWrap && shouldSplit)) {
       const box = Object.assign({}, child.box, {
         top: child.box.top - height,
       });
@@ -224,12 +273,57 @@ const splitNodes = (height, contentArea, nodes) => {
         height,
       );
 
+      if (currentPageNode) {
+        const newNodeTop = getTop(currentPageNode);
+        const newNodeHeight = currentPageNode.box.height;
+        const newShouldSplit =
+          height + SAFTY_THRESHOLD < newNodeTop + newNodeHeight;
+
+        if (newShouldSplit) {
+          const [currentSplitChild, nextSplitChild] = split(
+            currentPageNode,
+            height,
+            contentArea,
+          );
+
+          if (currentSplitChild) {
+            currentChildren.push(currentSplitChild);
+            currentChildren.push(...futureFixedNodes);
+          }
+
+          if (nextSplitChild) {
+            const box = Object.assign({}, nextSplitChild.box, {
+              top: child.box.top - height,
+            });
+            const next = Object.assign({}, nextSplitChild, {
+              box,
+            });
+
+            nextChildren.push(next);
+          }
+
+          const props = Object.assign({}, nextPageNode.props, {
+            break: true,
+          });
+          const next = Object.assign({}, nextPageNode, {
+            props,
+            afterNextSplitChild: true,
+          });
+
+          nextChildren.push(next, ...futureNodes);
+
+          break;
+        } else {
+          currentChildren.push(currentPageNode);
+        }
+      }
+
+      currentChildren.push(...futureFixedNodes);
+
       const box = Object.assign({}, nextPageNode.box, {
-        top: nextPageNode.box.top - height,
+        top: child.box.top - height,
       });
       const next = Object.assign({}, nextPageNode, { box });
-
-      if (currentPageNode) currentChildren.push(currentPageNode);
 
       nextChildren.push(next, ...futureNodes);
 
@@ -251,10 +345,15 @@ const splitNodes = (height, contentArea, nodes) => {
         break;
       }
 
-      if (currentChild) currentChildren.push(currentChild);
+      if (currentChild) {
+        currentChildren.push(currentChild);
+        currentChildren.push(...futureFixedNodes);
+      }
       if (nextChild) nextChildren.push(nextChild);
 
-      continue;
+      nextChildren.push(...futureNodes);
+
+      break;
     }
 
     currentChildren.push(child);
