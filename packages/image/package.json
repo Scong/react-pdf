@@ -1,6 +1,6 @@
 {
   "name": "scong-react-fork-pdf-image",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "license": "MIT",
   "description": "Parses the images in png or jpeg format for react-pdf document",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@babel/runtime": "^7.20.13",
     "cross-fetch": "^3.1.5",
-    "scong-react-fork-pdf-png-js": "^2.2.2"
+    "scong-react-fork-pdf-png-js": "^2.2.3"
   },
   "devDependencies": {
     "jest-fetch-mock": "^2.1.1"

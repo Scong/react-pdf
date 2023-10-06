@@ -1,6 +1,6 @@
 {
   "name": "scong-react-fork-pdf-pdfkit",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "license": "MIT",
   "description": "A PDF generation library for Node.js",
   "main": "./lib/pdfkit.cjs.js",
@@ -33,7 +33,7 @@
     "browserify-zlib": "^0.2.0",
     "crypto-js": "^4.0.0",
     "fontkit": "^2.0.2",
-    "scong-react-fork-pdf-png-js": "^2.2.2",
+    "scong-react-fork-pdf-png-js": "^2.2.3",
     "vite-compatible-readable-stream": "^3.6.1"
   },
   "devDependencies": {
