@@ -1,7 +1,7 @@
 {
   "name": "scong-react-fork-pdf-png-js",
   "description": "A PNG decoder in JS",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "license": "MIT",
   "main": "./lib/png-js.cjs.js",
   "module": "./lib/png-js.es.js",
