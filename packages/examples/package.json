@@ -1,6 +1,6 @@
 {
   "name": "scong-react-fork-pdf-examples",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "license": "MIT",
   "private": true,
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "camelcase": "^6.2.0",
-    "scong-react-fork-pdf-renderer": "^3.1.14"
+    "scong-react-fork-pdf-renderer": "^3.1.15"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0.0",
