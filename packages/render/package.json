@@ -1,6 +1,6 @@
 {
   "name": "scong-react-fork-pdf-render",
-  "version": "3.2.10",
+  "version": "3.2.11",
   "license": "MIT",
   "description": "A render engine for Node and the browser",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -23,10 +23,10 @@
     "color-string": "^1.5.3",
     "normalize-svg-path": "^1.1.0",
     "parse-svg-path": "^0.1.2",
-    "scong-react-fork-pdf-fns": "^2.0.5",
-    "scong-react-fork-pdf-primitives": "^3.0.5",
-    "scong-react-fork-pdf-textkit": "^4.2.4",
-    "scong-react-fork-pdf-types": "^2.3.7",
+    "scong-react-fork-pdf-fns": "^2.0.6",
+    "scong-react-fork-pdf-primitives": "^3.0.6",
+    "scong-react-fork-pdf-textkit": "^4.2.5",
+    "scong-react-fork-pdf-types": "^2.3.8",
     "svg-arc-to-cubic-bezier": "^3.2.0"
   },
   "files": [

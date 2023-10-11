@@ -1,6 +1,6 @@
 {
   "name": "scong-react-fork-pdf-layout",
-  "version": "3.6.6",
+  "version": "3.6.7",
   "license": "MIT",
   "description": "Resolve overall document component's layout",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -22,14 +22,14 @@
     "cross-fetch": "^3.1.5",
     "emoji-regex": "^10.2.1",
     "queue": "^6.0.1",
-    "scong-react-fork-pdf-fns": "^2.0.5",
-    "scong-react-fork-pdf-image": "^2.2.5",
-    "scong-react-fork-pdf-pdfkit": "^3.0.6",
-    "scong-react-fork-pdf-primitives": "^3.0.5",
-    "scong-react-fork-pdf-stylesheet": "^4.1.11",
-    "scong-react-fork-pdf-textkit": "^4.2.4",
-    "scong-react-fork-pdf-types": "^2.3.7",
-    "scong-react-fork-pdf-yoga": "^4.1.6"
+    "scong-react-fork-pdf-fns": "^2.0.6",
+    "scong-react-fork-pdf-image": "^2.2.6",
+    "scong-react-fork-pdf-pdfkit": "^3.0.7",
+    "scong-react-fork-pdf-primitives": "^3.0.6",
+    "scong-react-fork-pdf-stylesheet": "^4.1.12",
+    "scong-react-fork-pdf-textkit": "^4.2.5",
+    "scong-react-fork-pdf-types": "^2.3.8",
+    "scong-react-fork-pdf-yoga": "^4.1.7"
   },
   "devDependencies": {
     "jest-fetch-mock": "^2.1.1"
